@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.top_header{
+
+background: #efefef;
+
+padding: 10px 0;
+}
+.top_header p{
+
+margin: 0;
+
+color: #7f7f7f;
+
+font-size: 16px;
+}
+.top_header ul{
+
+margin: 0;
+
+display: flex;
+
+padding: 0;
+
+list-style: none;
+
+justify-content: end;
+
+/* margin-left: 10px; */
+}
+.top_header ul li{
+
+/* text-decoration: none; */
+
+margin-left: 20px;
+}
+.top_header ul li a{
+    
+text-decoration: none;
+    
+color: #7f7f7f;
+    
+font-size: 16px;
+    
+text-transform: uppercase;
+}
+header{
+
+padding: 10px 0;
+}
+.btn-join{
+ background: #ff9b1a;
+ color: #fff;
+ padding: 0;
+ padding: 7px 15px;
+ border-radius: 19px;
+ font-size: 16px;
+ text-transform: uppercase;
+ margin-left: 30px;
+}
+.btn-join:hover{
+    background: #e6870c;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    text-transform: uppercase;
+    color: #161616;
+    font-size: 16px;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 20px;
+    transition: all .3s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff9b1a;
+}
+.navbar-light .navbar-nav .nav-link::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: #ff9b1a;
+    transition: all .3s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover::after{
+    width: 100%;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-light .navbar-toggler {
+    border: none;
+    background: #ff9b1a !important;
+}
+.pd{
+    padding: 0 !important;
+}
+.banner_section{
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../images/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_section .hg{
+    min-height: 83vh;
+}
+.banner_section h1{
+
+color: #efefef;
+
+text-transform: capitalize;
+
+font-weight: 700;
+
+font-size: 45px;
+
+text-align: center;
+
+margin: 0;
+
+margin-bottom: 30px;
+}
+.banner_section .transaction{
+
+display: flex;
+
+justify-content: space-evenly;
+
+font-weight: 600;
+}
+.transaction .items{
+
+margin-bottom: 30px;
+}
+.items h6{
+
+margin: 0;
+
+color: #efefef;
+
+margin-bottom: 5px;
+
+font-size: 20px;
+}
+.items p{
+
+color: #efefef;
+
+margin: 0;
+}
+.join-us{
+
+color: #efefef;
+
+border: 1px solid #ff9b1a;
+
+background: #ff9b1a;
+
+border-radius: 20px;
+
+padding: 0;
+
+padding: 7px 15px;
+
+margin-right: 10px;
+transition: all .4s ease-in-out;
+}
+.join-us:hover{
+color: #efefef;
+
+border: 1px solid #efefef;
+
+background: transparent;
+}
+.contact-us{
+
+color: #efefef;
+
+border: 1px solid #efefef;
+
+border-radius: 20px;
+
+padding: 0;
+
+padding: 7px 15px;
+transition: all .4s ease-in-out;
+}
+.contact-us:hover{
+    color: #efefef;
+
+    border: 1px solid #ff9b1a;
+    
+    background: #ff9b1a;
+}
+.instraction_section{
+
+}
+.instraction_items{
+
+border: 1px solid #e1e1e1;
+
+padding: 40px 25px;
+
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+z-index: 0;
+transition: .8s ease-in-out all;
+}
+.instraction_items:hover{
+    background-image: url(../images/bitcoin-bg.png);
+    background-position: center;
+}
+.instraction_items:hover i , .instraction_items:hover h5, .instraction_items:hover p{
+color: #fff;
+}
+.instraction_items::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dab203+0,fe7102+100 */
+    background: rgb(218,178,3); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(218,178,3,1) 0%, rgba(254,113,2,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(218,178,3,1) 0%,rgba(254,113,2,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(218,178,3,1) 0%,rgba(254,113,2,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dab203', endColorstr='#fe7102',GradientType=0 ); /* IE6-9 */
+    ;
+    z-index: -1;
+    opacity: 0;
+    transition: ease-in-out all .2s;
+}
+.instraction_items:hover::after{
+    opacity: .6;
+}
+.instraction_items i{
+    
+font-size: 60px;
+    
+margin-bottom: 25px;
+    
+color: #ff9b1a;
+}
+.instraction_items h5{
+    
+margin: 0;
+    
+margin-bottom: 15px;
+    
+color: #000;
+}
+.instraction_items p{
+    
+margin: 0;
+    
+color: #000;
+}
+.service_section{
+
+}
+.heading{
+    position: relative;
+}
+.heading h2{
+  
+margin: 0;
+  
+text-transform: uppercase;
+  
+color: #2b2b2b;
+  
+font-weight: 700;
+  
+font-size: 26px;
+  
+margin-bottom: 10px;
+}
+
+.heading p{
+    
+margin: 0 !important;
+    
+color: #6e6e6e !important;
+    
+margin-bottom: 15px !important;
+    
+font-size: 14px !important;
+}
+.heading::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 47%;
+    width: 0%;
+    height: 3px;
+    background:  #ff9b1a;
+    transition: .4s all ease-in-out;
+}
+.service_section:hover .heading::before{
+    width: 6%;
+}
+.service_section .fonts{
+    font-family: 'Raleway', sans-serif;
+}
+.bitcoin-img{
+
+/* width: 31%; */
+}
+.service_section h3{
+
+color: #2b2b2b;
+
+margin: 0;
+
+margin-bottom: 10px;
+
+font-size: 20px;
+
+font-weight: 600;
+
+margin-top: 10px;
+}
+.service_section p{
+    
+margin: 0;
+    
+color: #424242;
+    
+font-size: 14px;
+}
+.btn-viwe{
+    
+/* margin-top: 20px; */
+}
+.btn-viwe a{
+
+padding: 0;
+
+border: 1px solid #424242;
+
+padding: 8px 20px;
+
+border-radius: 18px;
+
+font-weight: 600;
+
+color: #2b2b2b !important;
+
+font-size: 16px;
+transition: .4s all ease-in-out;
+}
+.btn-viwe a:hover{
+
+border: 1px solid #ff9b1a;
+
+background: #ff9b1a;
+
+color: #fff !important;
+}
+.media{
+    display: none;
+}
+.btn:focus {
+    box-shadow: none;
+    outline: none;
+}

@@ -1,0 +1,57 @@
+@media(max-width:1399px){
+
+}
+@media(max-width:1199px){
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+    .top_header ul li a {
+        font-size: 14px;
+    }
+    .top_header p {
+        font-size: 14px;
+    }
+    .banner_section h1 {
+        font-size: 38px;
+    }
+}
+@media(max-width:992px){
+    .btn-join {
+        display: none;
+    }
+    .media {
+        display: inherit;
+        margin: 0;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+    }
+    .top_header {
+        display: none;
+    }
+    .banner_section .hg {
+        min-height: 87vh;
+    }
+    .instraction_items h5 {
+        font-size: 15px;
+    }
+    .instraction_items p {
+        font-size: 14px;
+    }
+    .service_section h3 {
+        font-size: 17px;
+    }
+    .bitcoin-img {
+        width: 40%;
+    }
+
+}
+@media(max-width:768px){
+    .instraction_items {
+        margin-bottom: 30px;
+    }
+    .mg{
+        margin-bottom: 20px;
+    }
+}
